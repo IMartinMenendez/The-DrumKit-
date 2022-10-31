@@ -12,7 +12,6 @@ body{
 
 .inline{
   justify-content: center;
-  height: 100vh;
   vertical-align: center;
   display: flex;
 }
@@ -85,6 +84,7 @@ body{
 }
 
 #bass-kick-drum{
+  top: 385px;
   justify-content: center;
   margin: auto;
   width: 20rem;

@@ -1,60 +1,39 @@
+const crashCymba = new Audio("../assets/crash.wav");
+const hiHat = new Audio("../assets/hi-hat.wav");
+const tomDrum = new Audio("../assets/high-tom.wav");
+const snareDrum = new Audio("../assets/snare.wav");
+const bassKickDrum = new Audio("../assets/bass-drum.wav");
+const rideCymbal = new Audio("../assets/ride.wav");
+const floorTomDrum = new Audio("../assets/medium-tom.wav");
+
+
 document.getElementById("crash-cymbal").addEventListener("click", () => {
-    new Audio("../assets/crash.wav").play().then(() => {
-        // Audio is playing.
-    }).catch(error => {
-        console.log(error);
-    });
+    crashCymba.play();
 });
 document.getElementById("hi-hat-cymbal").addEventListener("click", () => {
-    new Audio("../assets/hi-hat.wav").play().then(() => {
-        // Audio is playing.
-    }).catch(error => {
-        console.log(error);
-    });
+    hiHat.play();
 });
 document.getElementById("tom-drums1").addEventListener("click", () => {
-    new Audio("../assets/high-tom.wav").play().then(() => {
-        // Audio is playing.
-    }).catch(error => {
-        console.log(error);
-    });
+    tomDrum.play()
 });
 
 document.getElementById("snare-drum").addEventListener("click", () => {
-    new Audio("../assets/snare.wav").play().then(() => {
-        // Audio is playing.
-    }).catch(error => {
-        console.log(error);
-    });
+    snareDrum.play();
 });
 
 document.getElementById("bass-kick-drum").addEventListener("click", () => {
-    new Audio("../assets/bass-drum.wav").play().then(() => {
-        // Audio is playing.
-    }).catch(error => {
-        console.log(error);
-    });
+    bassKickDrum.play();
 });
 
 document.getElementById("ride-cymbal").addEventListener("click", () => {
-    new Audio("../assets/ride.wav").play().then(() => {
-        // Audio is playing.
-    }).catch(error => {
-        console.log(error);
-    });
+    rideCymbal.play();
 });
 
 document.getElementById("tom-drums2").addEventListener("click", () => {
-    new Audio("../assets/high-tom.wav").play().then(() => {
-    }).catch(error => {
-        console.log(error);
-    });
+    tomDrum.play();
 });
 
 document.getElementById("floor-tom-drum").addEventListener("click", () => {
-    new Audio("../assets/medium-tom.wav").play().then(() => {
-    }).catch(error => {
-        console.log(error);
-    });
+    floorTomDrum.play();
 });
 

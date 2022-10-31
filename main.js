@@ -1,10 +1,10 @@
-const crashCymba = new Audio("../assets/crash.wav");
-const hiHat = new Audio("../assets/hi-hat.wav");
-const tomDrum = new Audio("../assets/high-tom.wav");
-const snareDrum = new Audio("../assets/snare.wav");
-const bassKickDrum = new Audio("../assets/bass-drum.wav");
-const rideCymbal = new Audio("../assets/ride.wav");
-const floorTomDrum = new Audio("../assets/medium-tom.wav");
+const crashCymba = new Audio("./assets/crash.wav");
+const hiHat = new Audio("./assets/hi-hat.wav");
+const tomDrum = new Audio("./assets/high-tom.wav");
+const snareDrum = new Audio("./assets/snare.wav");
+const bassKickDrum = new Audio("./assets/bass-drum.wav");
+const rideCymbal = new Audio("./assets/ride.wav");
+const floorTomDrum = new Audio("./assets/medium-tom.wav");
 
 
 document.getElementById("crash-cymbal").addEventListener("click", () => {
